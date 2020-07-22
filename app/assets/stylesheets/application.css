@@ -1,3 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  height: 60px;
+  background-color: #25412e;
+  display: flex;
+  justify-content: space-between;
+}
+.top {
+  height: calc(100vh - 60px);
+ background-color: #c1d7d6;
+ padding: 30px;
+}
+.logo {
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-left: 600px;
+  line-height: 60px;
+  text-align: center;
+}
+.logo a {
+  text-decoration: none;
+  color: #f3f7f7;
+  font-family: 'Amatic SC', cursive;
+}
+.post {
+  text-decoration: none;
+  color: #f3f7f7;
+}
+.sub-title {
+  color: #25412e;
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+  font-family: 'Amatic SC', cursive;
+}
+.box-all {
+  height: 300px;
+  width: 600px;
+  border: 10px dotted #25412e;
+  background-color: #c1d7d6;
+  padding: 10px;
+  margin: 0px 350px;
+  margin-bottom: 30px;
+}
+.box-text {
+  height: 270px;
+  width: 600px;
+  background-color: #c1d7d6;
+  border-radius: 10px;
+}
+.box-btn {
+  height: 30px;
+  width: 600px;
+  background-color: #c1d7d6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.

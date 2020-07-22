@@ -1,1 +1,15 @@
-<p>hello world</p>
+<p class="sub-title">note</p>
+<% @notes.each do |n| %>
+   <div class="box-all">
+    
+    
+       <div class="box-text">
+        <%= n.text %>
+       </div>
+    
+       <p class="box-btn">
+        
+       </p>
+
+   </div>
+<% end %>
